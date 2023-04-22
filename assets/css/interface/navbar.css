@@ -1,0 +1,14 @@
+.navbar-01 {
+  position: relative;
+}
+.navbar-01 ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.navbar-01 ul li {
+  list-style: none;
+  width: 20%;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+/* archivos para modificar la base del html */
+@import "./base.css";
+@import "./layout.css";
+
+/* archivos para modificar la interfase */
+@import "./interface/navbar.css";
+
+/* archivos para modificar la visualización */
+@import "./style/style01.css";

@@ -1,0 +1,44 @@
+.title-red {
+  color: var(--color-title-red);
+}
+.user {
+  display: flex;
+}
+.user button {
+  border: none;
+  background: none;
+}
+.user-cart {
+  position: relative;
+  font-size: 15px;
+  width: 40%;
+}
+.user-img {
+}
+
+.hover-square {
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 100%;
+}
+.hover-square ul li {
+  height: 5px;
+}
+.hover-square ul li:hover {
+  background: orange;
+}
+.container-cartlist {
+  width: 300px;
+  height: 400px;
+  overflow-y: auto;
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 2;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.container-cartlist.open {
+  display: block;
+}

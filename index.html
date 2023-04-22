@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./assets/js/jquery/navbar.js"></script>
+    <title>Ayudantia 02 | E-commerce</title>
+  </head>
+  <body class="container pt-5">
+    <header class="row align-items-center">
+      <section class="col-2">titulo</section>
+      <section class="col-8">
+        <nav class="navbar-01 w-50">
+          <ul>
+            <li id="nav_btn_01">Collections</li>
+            <li id="nav_btn_02">Men</li>
+            <li id="nav_btn_03">Women</li>
+            <li id="nav_btn_04">About</li>
+            <li id="nav_btn_05">Contact</li>
+          </ul>
+          <section class="hover-square">
+            <ul class="m-0">
+              <li id="sq_hover_01" class="p-0"></li>
+              <li id="sq_hover_02" class="p-0"></li>
+              <li id="sq_hover_03" class="p-0"></li>
+              <li id="sq_hover_04" class="p-0"></li>
+              <li id="sq_hover_05" class="p-0"></li>
+            </ul>
+          </section>
+        </nav>
+      </section>
+      <section class="col-2 user">
+        <section class="user-cart">
+          <button id="cart_list_btn" onclick="javascript:openCartList()">
+            <i id="cart_list_icon" class="fas fa-shopping-cart"></i>
+          </button>
+          <section id="cart_list" class="container-cartlist"></section>
+          <section id="cart_list" class="container-cartlist"></section>
+        </section>
+        <section class="user-img">
+          <button>usuario</button>
+        </section>
+      </section>
+      <section>
+        <hr />
+      </section>
+    </header>
+    <script src="./assets/js/navbar/navbar.js"></script>
+  </body>
+</html>
